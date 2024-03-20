@@ -1,0 +1,215 @@
+<!doctype html>
+
+<html>
+
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<style>
+body {
+      position: relative;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .myDiv {
+
+      border: 5px outset black;
+      background-color: black;
+      text-align: center;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: yellow;
+    }
+
+    .topnav a {
+      float: right;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .dropdown {
+      float: right;
+      overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+      font-size: 17px;
+      border: none;
+      outline: none;
+      color: black;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+
+    .topnav a:hover,
+    .dropdown:hover .dropbtn {
+      background-color: green;
+      color: white
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .topnav a.active {
+      background-color: black;
+      color: white;
+    }
+
+.center_article h2 {
+      padding-right: 10%; 
+      position: absolute;
+      margin-top: 3%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: black;
+      font-weight: bold;
+      
+    }
+
+.left_article {
+      width: 90%;
+      padding-left: 5%;
+      padding-right: 5%;
+      text-align: justify;
+      margin-top: 70px;
+      line-height: 24px;
+      margin-bottom: 15px;
+      color: black;
+    }
+
+
+.social-icons {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 20px;
+    color: #fff; 
+    font-size: 24px; 
+}
+
+.social-icons a:hover {
+    opacity: 0.7; 
+    
+}
+
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+
+.linkedin {
+    background-color: #0077b5;
+}
+
+.indeed {
+    background-color: #ff5a60; 
+}
+
+.social-icons a {
+    width: 40px; /
+    height: 40px;
+    line-height: 40px; 
+    border-radius: 50%; 
+    transition: background-color 0.3s, opacity 0.3s; 
+}
+
+ (max-width: 600px) {
+    .social-icons a {
+        margin: 0 5px;
+        font-size: 20px; 
+   
+</style>
+
+
+<title>Patrick's protfolio </title>
+
+<body>
+  <div class="myDiv">
+    <h1 style="color: White">
+      <b>PATRICK GYAN'S PORTFOLIO </b>
+  </div>
+
+  <div class="topnav">
+    <a class="active" href="contactme.html">CONTACT ME</a>
+    <a href="#ABOUT ME">ABOUT ME</a>
+    <div class="dropdown">
+      <button class="dropbtn">MY UNIT
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Unit1and2.html">UNIT 1 & 2</a>
+        <a href="unit11.html">UNIT 11 </a>
+        <a href="unit12.html">UNIT 12</a>
+        <a href="unit14.html">UNIT 14</a>
+        <a href="unit13.html">UNIT 3 & 13</a>
+        <a href="unit9.html">UNIT 9</a>
+      </div>
+    </div>
+    <a href="projectandqualifications.html">PROJECT AND QUALIFICATIONS</a>
+    <a href="homepage.html">HOME</a>
+  </div>
+
+<div class="center_article">
+    <h2>Get In Touch With Patrick</h2>
+  </div>
+
+<article class="left_article">
+<P>To get started, please visit my personal social media handle.</p>
+<p>Patrick will love to hear fro you any of the following social media platforms</p>
+<p>So engage with me on; </p>
+</article>
+
+<footer>
+    <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.twitter.com" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.indeed.com" target="_blank" class="indeed"><i class="fas fa-briefcase"></i></a> 
+    </div>
+
+</body>
+</html>
